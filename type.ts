@@ -23,13 +23,21 @@ boolArr = [true, false, false, true, true, false]
 // Tuple
 strNumTuple = [1, 'John', 'Doe'];
 
+// Void, Undefined, and NULL
+let myVoid: void = null;
+let myUndefined: undefined = undefined;
+let myNull: null = null;
+
 // output
 console.log('START of TYPES');
-console.log(myString);
-console.log(myNum);
-console.log(myBool);
-console.log(myVar);
-console.log(strArr);
-console.log(numArr);
-console.log(strNumTuple);
+console.log('String: '+myString);
+console.log('Number: '+myNum);
+console.log('Boolean: '+myBool);
+console.log('Any: '+myVar);
+console.log('String Array: '+strArr);
+console.log('Number Array: '+numArr);
+console.log('Tuple: '+strNumTuple);
+console.log('Void: '+myVoid);
+console.log('Undefined: '+myUndefined);
+console.log('Null: '+myNull);
 console.log('END of TYPES');
